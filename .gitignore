@@ -1,0 +1,27 @@
+# Compiled binaries and local builds
+# ----------------------------------
+/bin/
+*.exe
+*.dll
+
+# Test and coverage artifacts
+# ---------------------------
+*.test
+*.out
+*.prof
+*.coverprofile
+profile.cov
+
+# Go toolchain workspace files
+# ----------------------------
+go.work
+go.work.sum
+
+# Environments and Secrets
+# ------------------------
+.env
+*.env.local
+
+# IDEs and Editors
+# --------------------------------------------------------------
+.vscode/
